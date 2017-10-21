@@ -294,9 +294,10 @@ img#ITE
     width:100px;
     float:left;
 }
-.cc2015
+img#cc2015
 {
-    width:100%;
+    height:50px;
+    width:100px;
     float:left;
 
 }
@@ -329,31 +330,22 @@ img#ITE
 {
 
 }
-.studentorg_page
-{
-    display:flex;
-    flex-direction:row;
-}
 table#student_organizations_table
 {
     width:30%;
     display:flex;
     flex-direction: column;
-    margin:0;
-    margin-right:150px;
    
 }
 table#student_activities_table
 {
    width:30%;
      display:flex;
-   
     flex-direction: column;
     float:right;
+    margin-top:-350px;
 }
-.student_organization_th
-{
-}
+
 .student_organizations_td
 {
     padding-top:50px;
@@ -363,17 +355,20 @@ table#student_activities_table
 
 img#chi_epsilon
 {
- width:100%;
+   height:50px;
+    width:100px;
     float:left;
 }
 img#ASCE
 {
-    width:100%;
+    height:50px;
+    width:100px;
     float:left;
 }
 img#ITE
 {
- width:100%;
+    height:50px;
+    width:100px;
     float:left;
 }
 .clay_corner_img
@@ -384,9 +379,9 @@ img#ITE
 }
 div#cc_past_teams
 {
-
-   margin:0;
-    float:left;
+    float:right;
+    margin-right:-150px;
+    margin-top:12%;
   
 }
 h4#cc_past_teams
@@ -1188,66 +1183,6 @@ display:inline;
 }
 
 /* END MainNav */
-
-.floating-box1 {
-    float: left;
-    width: 49%;
-    border: 1px solid gray;
-    padding:10px;
-    /*position:relative;*/
-    margin-top:5px;
-    margin-bottom:5px;
-    margin-right:0px;
-    margin-left:10px;
-}
-
-.floating-box2 {
-    float: right;
-    width: 49%;
-    border: 1px solid gray;
-    padding:10px;
-    /*position:relative;*/
-    margin-top:5px;
-    margin-bottom:5px;
-    margin-right:10px;
-    margin-left:0px;
-}
-
-.floating-box3 {
-    float: left;
-    width: 32%;
-    border: 1px solid gray;
-    padding:10px;
-    /*position:relative;*/
-    margin-top:5px;
-    margin-bottom:5px;
-    margin-right:0px;
-    margin-left:10px;
-}
-
-.floating-box4 {
-    float: left;
-    width: 32%;
-    border: 1px solid gray;
-    padding:10px;
-    /*position:relative;*/
-    margin-top:5px;
-    margin-bottom:5px;
-    margin-right:25px;
-    margin-left:25px;
-}
-
-.floating-box5 {
-    float: right;
-    width: 32%;
-    border: 1px solid gray;
-    padding:10px;
-    /*position:relative;*/
-    margin-top:5px;
-    margin-bottom:5px;
-    margin-right:10px;
-    margin-left:0px;
-}
 
 .outer{
     width: 100%;
