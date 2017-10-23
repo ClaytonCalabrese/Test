@@ -11,6 +11,63 @@
 /*footer.html*/
 /* end footer */
 
+img#logo-image{
+    height: 70px;
+}
+
+img#employmentStats{
+    margin-left: 5%;
+    width: 70%
+}
+
+.undergraduate-div{
+    padding: 1%;
+    margin-left: 5%;
+}
+
+img#abet-pic{
+    margin-left: 3.5%;
+}
+
+.cait_page_ul{
+    /*margin: 1%;
+    margin-bottom: 1%;*/
+    font-size: 120%;
+}
+
+.grad-pic{
+    height: 25%;
+    margin-left: 2.5%;
+}
+
+.cait_page_content{
+    margin: 0.75%;
+    margin-left:3.25%;
+}
+
+.cait_page_content2{
+    margin-left: 5%;
+    /*margin-bottom: 0.5%;*/
+}
+
+#title-link{
+    color:red;
+}
+
+.cait_page_content3{
+    list-style-type:none;
+    margin-left:3%;
+}
+
+.cait_page_subtitle{
+    margin-top: 2%;
+    color: red;
+}
+
+.no-dot-list{
+    list-style-type:none;
+}
+
 div#title
 {
     color:white;
@@ -783,11 +840,12 @@ div.panel {
     margin-bottom: 10px;
 }
 .panel p {
-    color: #e72028;
-    background-color: #999;
+    color:red;
+    background-color:darkgrey;
     text-decoration: underline;
     padding-left: 5px;
 }
+
 .expand:after {
     content: "\00002B";
     font-size: 20px;
@@ -1221,18 +1279,73 @@ display:inline;
 }
 
 .cd-table{
-    margin-left:100px;
-    margin-top: 15px;
+    margin-left: 5%; 
+    margin-top: 1%; 
+    margin-bottom: 1%; 
     font-size: 130%;
 }
+.coursetable{
 
+    width: 75%;
+
+    font-size: 110%;
+
+}
+
+
+
+.courses-prereqflow{
+
+    margin-left: 5%;
+
+    margin-bottom:1%;
+
+    width: 100%;
+
+}
 table, td, th {
-    border: 1px solid white;
-    border-collapse: collapse;
-    margin-left:100px;
-    margin-top: 10px;
+    margin-left: 7%;
+
+    margin-top: 0.5%;
     font-size: 115%;
-    padding: 15px;
+    padding: 2%;
+
+}
+
+
+
+.curriculum-table{
+
+    margin: 1%;
+
+    margin-left:5%;
+
+    width: 80%;
+
+}
+
+
+
+.curr-button{
+
+    font-size:125%;
+
+    margin-left: 80%;
+
+}
+
+
+
+img#dropdown{
+
+    width: 10%;
+
+    height: 4%;
+
+    margin-top: 1%;
+
+    margin-left: 2%;
+
 }
 
 /*START graduate */
@@ -1401,7 +1514,7 @@ button.accordion.active, button.accordion:hover {
 }
 
 /* Style the accordion panel. Note: hidden by default */
-div.panel {
+div.mainpanel {
     padding: 0 18px;
     background-color: white;
     display: none;
