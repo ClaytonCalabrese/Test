@@ -80,6 +80,9 @@ div#title
     display: block;
     margin: auto;
 }
+.main-nav_button{
+   text-decoration: none;
+}
 .main-nav-wrapper {
     width: 70%;
     position: relative;
@@ -196,33 +199,31 @@ ul#cait_page_ul{
 
 img#chi_epsilon
 {
-   height:50px;
-    width:100px;
+   width:100%;
     float:left;
 }
 
 img#ASCE
 {
-    height:50px;
+    hewidth:100%;ight:50px;
     width:100px;
     float:left;
 }
 img#ITE
 {
-    height:50px;
-    width:100px;
+    width:100%;
     float:left;
 }
-img#cc2015
+.cc2015
 {
-    height:50px;
-    width:100px;
-    float:left;
+    width:100%;
+	float:left;
 
 }
 .clay_page_title
 {
-    color:black;
+
+    color: rgb(231,32,40);
     margin-top:10px;
     font-size:2rem;
     margin-left:40%;
@@ -230,19 +231,30 @@ img#cc2015
 }
 .clay_page_subtitle
 {
-     color:black;
-    margin-top:10px;
-    margin-left:30%;
-    margin-bottom:25px;
+        height: 50;
+    width:auto;
+    margin-right: 10px;
+    font-size: 20;
+    margin-bottom:20px;
+    text-align:center;
+    font-weight: bold;
+    border-bottom:4px solid #e72028;
+    background-color: rgb(38, 38, 38);
+    color: white;
 }
 .clay_page_content
 {
-    margin-left:32%;
+    margin-left:12%;
     margin-bottom:10px;
     color: black;
 }
 .clay_page_ul
 {
+    margin-bottom:50px;
+}
+.clay_page_subul
+{
+    margin-left:5%;
     margin-bottom:50px;
 }
 .clay_page_li
@@ -252,42 +264,49 @@ img#cc2015
 table#student_organizations_table
 {
     width:30%;
+	margin:0;
     display:flex;
     flex-direction: column;
-   
+margin-left:15%;   
+    border:1px solid rgb(245,245,240);
 }
 table#student_activities_table
 {
    width:30%;
+margin-right:15%;
      display:flex;
     flex-direction: column;
-    float:right;
-    margin-top:-350px;
+float:right;
+        border:1px solid rgb(245,245,240);
 }
 
 .student_organizations_td
 {
     padding-top:50px;
+        border:1px solid rgb(245,245,240);
 }
+.student_organization_th
+{
+    border:1px solid rgb(245,245,240);}
 
-
-
+.studentorg_page
+{
+	justify-content:space-between;
+	display:flex;
+	flex-direction:row;
+}
 img#chi_epsilon
 {
-   height:50px;
-    width:100px;
+width:100%;
     float:left;
 }
 img#ASCE
-{
-    height:50px;
-    width:100px;
+{width:100%;
     float:left;
 }
 img#ITE
 {
-    height:50px;
-    width:100px;
+    width:100%;
     float:left;
 }
 .clay_corner_img
@@ -298,17 +317,23 @@ img#ITE
 }
 div#cc_past_teams
 {
-    float:right;
-    margin-right:-150px;
-    margin-top:12%;
-  
+	flex-direction:column;
+    float:right;  
+    margin-right:10%;
+    margin-top:-20%;
 }
 h4#cc_past_teams
 {
     margin-bottom:15px;
 }
+.cc_button
+{background-color:rgb(38,38,38);
+    color:rgb(173,173,173);
+    width:45px;
+}
 .cc_year
 {
+list-style-type:none;
     margin-bottom:5px;
 }
 
@@ -349,8 +374,7 @@ color:blue;
 {
    
      margin-top:20px;
-    width:25%;
-    height:500px;
+    height:200px;
         margin-left:20%;
 }
 .employer_label
@@ -812,7 +836,7 @@ div.panel {
 
     text-decoration: none;
 
-    color:red;
+    color:rgb(173,173,173);
 
 }
 
@@ -1227,9 +1251,18 @@ table, td, th {
     width: 400px;
     height:300px;
 }
+.specialization_pic {
 
+    width: 450px;
+    height:300px;
+}
+.clay_sidebar_info
+{
+    margin-top:20px;
+}
 .graduatepage_text {
     width: 70%;
+    border-left:8px solid rgb(38,38,38);
     margin-left: 10px;
     margin-bottom: 10px;
 }
@@ -1335,3 +1368,68 @@ text-decoration: none;
     margin-left: auto;
     margin-right: auto;
 }
+a[href^="https://"] {
+    background: url(images/externallink.png) center right no-repeat;
+    padding-right: 13px;
+}
+a[href^="http://"] {
+    background: url(images/externallink.png) center right no-repeat;
+    padding-right: 13px;
+}
+
+.canoe_pic {
+    float:right;
+    width: 400px;
+    height:200px;
+}
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+}
+.sub-dropdown{
+  position: relative;
+    list-style-type:none;
+}
+.sub-dropdown-menu{
+  left: 100%;
+  top: 0;
+}
+.sub-dropdown:hover .sub-dropdown-menu{
+  display: table;
+}
+.sub-dropdown-menu{
+  display: none;
+  position: absolute;
+  z-index: 1;
+  list-style-type:none;
+}
+.submenu
+{
+
+    position: relative;
+    background-color:rgb(173, 173, 173);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width:inherit;
+    list-style-type:none;
+}
+
